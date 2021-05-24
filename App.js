@@ -1,14 +1,15 @@
+import React from 'react';
 import './App.css';
-import SearchResultContainer from "./components/EmployeeContainer";
-// import SearchResults from "./Components/SearchResults"
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <SearchResultContainer users={this.state.users} /> 
-      </header>
+    <div>
+      <Nav/>
+      <Footer/>
     </div>
   );
 }

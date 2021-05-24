@@ -1,0 +1,36 @@
+footer {
+	margin-top: 30px;
+}
+
+.footer--contact {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 150px;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.footer--contact__icon {
+	margin: 60px 0;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	cursor: pointer;
+    color: black;
+	
+}
+
+.footer--contact__icon:hover {
+	color: #819bc7;
+	transform: scale(1.2);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 667px) {
+	footer {
+		grid-area: footer;
+		margin-top: 35px;
+	}
+}
