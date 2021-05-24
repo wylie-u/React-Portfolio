@@ -1,0 +1,29 @@
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .wy-image {
+    position: relative;
+    left: 20%;
+    border-radius: 35%;
+}
+
+.main-content {
+    margin-top: 15%;
+}
+
+p {
+    font-family: 'Noto Sans KR', sans-serif;
+}
