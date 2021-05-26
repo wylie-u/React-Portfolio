@@ -1,0 +1,39 @@
+.display {
+    color:black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+ 
+    max-width: 720px;
+    margin: auto;
+
+}
+
+.jumbotron {
+  background-color: whitesmoke;
+}
+
+button {
+    color: #819bc7;
+}
+
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  

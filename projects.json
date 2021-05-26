@@ -1,0 +1,63 @@
+[
+
+{
+
+    "title": "BeerNuts",
+    "image": "images/BeerNuts.png",
+    "deployed": "https://shrouded-reaches-33204.herokuapp.com",
+    "github": "https://github.com/wylie-u/BeerNuts"
+
+
+},
+
+{
+
+    "title": "BoozyPlaylist",
+    "image": "images/Boozy-Playlists_800w.png",
+    "deployed": "https://paxton44.github.io/teamAwesome/",
+    "github": "https://github.com/paxton44/teamAwesome" 
+
+
+},
+
+{
+
+    "title": "Employee Directory",
+    "image": "images/EmployeeDirectory.png",
+    "deployed": "https://wylie-u.github.io/Employee-Directory/",
+    "github": "https://github.com/wylie-u/Employee-Directory"
+
+
+},
+
+{
+
+    "title": "Workout Tracker",
+    "image": "images/workout_main.png",
+    "deployed": "https://wy-workout-tracker.herokuapp.com/",
+    "github": "https://github.com/wylie-u/Workout-Tracker"
+
+
+},
+
+{
+
+    "title": "Note-Taker",
+    "image": "images/Note-Taker.png",
+    "deployed": "https://note-taker-du-21.herokuapp.com/",
+    "github": "https://github.com/wylie-u/Note-Taker"
+
+
+},
+
+{
+
+    "title": "Weather Dashboard",
+    "image": "images/Weather_Dashboard.png",
+    "deployed": "https://wylie-u.github.io/Weather-Dashboard/",
+    "github": "https://github.com/wylie-u/Weather-Dashboard"
+
+
+}
+
+]

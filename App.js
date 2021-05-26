@@ -1,13 +1,19 @@
 import React from 'react';
 import './App.css';
-import About from "./Pages/About";
+import ProjectContainer from './components/ProjectContainer';
+// import About from "./Pages/About";
+// import Contact from "./Pages/Contact";
+import Nav from './components/Nav';
+import Footer from "./components/Footer";
 
 
 
 function App() {
   return (
     <div>
-    <About/>    
+      <Nav/>
+    <ProjectContainer/>  
+    <Footer/>  
     </div>
   );
 }
