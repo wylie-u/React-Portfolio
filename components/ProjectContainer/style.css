@@ -3,6 +3,10 @@
     margin: auto;
   }
 
+.projects {
+  margin-bottom: 2rem;
+}
+
   a {
     color: rgb(0, 0, 0);
   }
@@ -10,25 +14,19 @@
   .row {
     margin: 8px -16px;
   }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 50%;
-  }
-  
-  /* Clear floats after rows */
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
+  
+.column {
+  float:left;
+  
+}
+  
+  
 
   /* Content */
 .content {

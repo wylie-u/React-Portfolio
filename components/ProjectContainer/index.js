@@ -13,11 +13,9 @@ function ProjectContainer () {
         <>
         <div className="main">
         <h2>My Projects</h2>
-        <p>Click through each project title to see the live project!</p>
+        <p className="projects">Click through each project title to see the live project!</p>
 
      <div class="row">
-          <div class="column">
-            <div class="content">
             {projects.map((project) => (
           <ProjectContent
             image={project.image}
@@ -28,8 +26,6 @@ function ProjectContainer () {
         ))}
                 </div>
                 </div>
-            </div>
-            </div>
         </>
 
     )

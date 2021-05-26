@@ -3,7 +3,7 @@
 {
 
     "title": "BeerNuts",
-    "image": "images/BeerNuts.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-images-8a0d7.appspot.com/o/BeerNuts.png?alt=media&token=d22c434c-c907-4475-83b2-f78d8e375fe5",
     "deployed": "https://shrouded-reaches-33204.herokuapp.com",
     "github": "https://github.com/wylie-u/BeerNuts"
 
@@ -13,7 +13,7 @@
 {
 
     "title": "BoozyPlaylist",
-    "image": "images/Boozy-Playlists_800w.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-images-8a0d7.appspot.com/o/Boozy-Playlists_800w.png?alt=media&token=3752e2ae-a7cf-401f-9dca-a77a124e14b3",
     "deployed": "https://paxton44.github.io/teamAwesome/",
     "github": "https://github.com/paxton44/teamAwesome" 
 
@@ -23,7 +23,7 @@
 {
 
     "title": "Employee Directory",
-    "image": "images/EmployeeDirectory.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-images-8a0d7.appspot.com/o/EmployeeDirectory.png?alt=media&token=6a4698da-9fd0-4a7c-bf97-b61ba9705a16",
     "deployed": "https://wylie-u.github.io/Employee-Directory/",
     "github": "https://github.com/wylie-u/Employee-Directory"
 
@@ -33,7 +33,7 @@
 {
 
     "title": "Workout Tracker",
-    "image": "images/workout_main.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-images-8a0d7.appspot.com/o/workout_main.png?alt=media&token=bac07bde-ba32-4595-8b58-a806002b6030",
     "deployed": "https://wy-workout-tracker.herokuapp.com/",
     "github": "https://github.com/wylie-u/Workout-Tracker"
 
@@ -43,7 +43,7 @@
 {
 
     "title": "Note-Taker",
-    "image": "images/Note-Taker.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-images-8a0d7.appspot.com/o/Note-Taker.png?alt=media&token=b6e9f785-879c-45ca-bf39-ce666d4b3bdc",
     "deployed": "https://note-taker-du-21.herokuapp.com/",
     "github": "https://github.com/wylie-u/Note-Taker"
 
@@ -53,7 +53,7 @@
 {
 
     "title": "Weather Dashboard",
-    "image": "images/Weather_Dashboard.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/portfolio-images-8a0d7.appspot.com/o/Weather_Dashboard.png?alt=media&token=e5587f34-d8dc-46d4-8370-74f21bb3fdb1",
     "deployed": "https://wylie-u.github.io/Weather-Dashboard/",
     "github": "https://github.com/wylie-u/Weather-Dashboard"
 
