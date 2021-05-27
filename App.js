@@ -1,20 +1,34 @@
 import React from 'react';
 import './App.css';
-import ProjectContainer from './components/ProjectContainer';
-// import About from "./Pages/About";
-// import Contact from "./Pages/Contact";
-import Nav from './components/Nav';
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Portfolio from "./Pages/Portfolio"
+// import Nav from './components/Nav';
+// import Footer from "./components/Footer";
 
 
 
 function App() {
   return (
-    <div>
-      <Nav/>
-    <ProjectContainer/>  
-    <Footer/>  
-    </div>
+    <Router>
+      <div>
+        {/* <Nav /> */}
+        <Switch>
+          <Route exact path={["/", "/About"]}>
+            <About />
+          </Route>
+          <Route path="/Portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/Contact">
+            <Contact />
+          </Route>
+        </Switch>
+        {/* <Footer/> */}
+      </div>
+    </Router>
+   
   );
 }
 

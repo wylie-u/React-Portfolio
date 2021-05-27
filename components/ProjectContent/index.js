@@ -1,5 +1,6 @@
 import React from 'react';
-// import {Card, CardColumns} from 'react-bootstrap';
+import "./style.css";
+
 
 
 
@@ -7,14 +8,13 @@ function ProjectContent ({ title, image, deployed, github }) {
 
     return (
         
-        <div className="column col-md-4">
+        <div className="column col-md-4 col-lg-6">
             <div className="card">
             <img src={image} className="card-img-top"alt="website"/>
   <div className="card-body">
     <h5 className="card-title">
     <a href={deployed} >{title}</a>
     </h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href={github} >Github Repository</a>
   </div>
             </div>
