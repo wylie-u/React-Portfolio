@@ -10,7 +10,7 @@ function AboutMe() {
         
           <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-5">
-                <img src={headshot} alt="headshot" class="wy-image"/>
+                <img src={headshot} alt="headshot" className="wy-image"/>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-7">
                 <article class="main-content">

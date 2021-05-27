@@ -16,14 +16,55 @@
 
   .wy-image {
     position: relative;
-    left: 20%;
+    left: 30%;
     border-radius: 35%;
-}
-
-.main-content {
-    margin-top: 15%;
 }
 
 p {
     font-family: 'Noto Sans KR', sans-serif;
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px) {
+  .wy-image {
+    position: relative;
+    left: 25%;
+    padding-right: 5px;
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .wy-image {
+    
+   display: none;
+   
+  }
+
+  .main-content {
+
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 992px){
+  .main-content {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .main-content {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-content {
+    margin-top: 20%;
+  }
 }
