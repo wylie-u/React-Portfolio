@@ -3,14 +3,11 @@ import projects from "../../projects.json";
 import "./style.css";
 import ProjectContent from '../ProjectContent';
 
-
-
-
 function ProjectContainer () {
 
     return (
 
-        <>
+       
         <div className="main">
         <h2>My Projects</h2>
         <p className="projects">Click through each project title to see the live project!</p>
@@ -24,9 +21,9 @@ function ProjectContainer () {
             github={project.github}
           />
         ))}
+                
                 </div>
-                </div>
-        </>
+       </div>
 
     )
 
