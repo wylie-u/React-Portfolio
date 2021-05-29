@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio"
+import Resume from "./Pages/Resume";
 
 
 
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/Portfolio">
             <Portfolio />
+          </Route>
+          <Route path="/Resume">
+            <Resume />
           </Route>
           <Route path="/Contact">
             <Contact />

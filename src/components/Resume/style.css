@@ -1,0 +1,16 @@
+
+.main__skills {
+	grid-area: skills;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: 2rem;
+}
+
+.about__skill {
+	padding: 8px;
+	font-weight: 600;
+}
+
+.main-content {
+    margin-top: 15%;
+}
