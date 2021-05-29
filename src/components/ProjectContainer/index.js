@@ -22,7 +22,7 @@ function ProjectContainer () {
           />
         ))}
                 
-                </div>
+      </div>   
        </div>
 
     )

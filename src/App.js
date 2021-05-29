@@ -10,9 +10,9 @@ import Portfolio from "./Pages/Portfolio"
 
 function App() {
   return (
+
     <Router>
       <div>
-        
         <Switch>
           <Route exact path={["/", "/About"]}>
             <About />
@@ -26,6 +26,8 @@ function App() {
         </Switch>
       </div>
     </Router>
+    
+   
    
   );
 }
