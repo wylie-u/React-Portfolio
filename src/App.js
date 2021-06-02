@@ -7,8 +7,6 @@ import Portfolio from "./Pages/Portfolio"
 import Resume from "./Pages/Resume";
 
 
-
-
 function App() {
   return (
 
