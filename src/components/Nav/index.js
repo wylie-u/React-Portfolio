@@ -5,8 +5,8 @@ import {Link} from "react-router-dom"
 function Nav() {
     return (
       <div>
-        <nav className="navbar navbar-expand-md navbar-light wy-nav">
-        <Link to="/about" className={window.location.pathname === "/about"}>W</Link> 
+        <nav className="navbar navbar-expand-md nav-item navbar-light wy-nav">
+        <Link to="/about" className="navbar-brand wy-logo">W</Link> 
         <button
           className="navbar-toggler"
           type="button"
@@ -41,4 +41,4 @@ function Nav() {
 
   // className="navbar-brand wy-logo"
 
-  //className="nav-link nav-link2" href="portfolio"
+  
