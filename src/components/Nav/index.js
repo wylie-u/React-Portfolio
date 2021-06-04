@@ -1,10 +1,12 @@
 import React from "react";
 import "./style.css";
+import {Link} from "react-router-dom"
 
 function Nav() {
     return (
+      <div>
         <nav className="navbar navbar-expand-md navbar-light wy-nav">
-        <a className="navbar-brand wy-logo" href="about">W</a>
+        <Link to="/about" className={window.location.pathname === "/about"}>W</Link> 
         <button
           className="navbar-toggler"
           type="button"
@@ -19,10 +21,10 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item active ">
-              <a className="nav-link nav-link2" href="portfolio">Portfolio</a>
+              <Link to="/portfolio" className={window.location.pathname === "/portfolio"}>Portfolio</Link> 
             </li>
             <li className="nav-item">
-              <a className="nav-link nav-link3" href="resume">Resume</a>
+              <Link to="/resume" className="nav-link nav-link3">Resume</Link> 
             </li>
             <li className="nav-item">
               <a className="nav-link nav-link4" href="contact">Contact</a>
@@ -30,7 +32,13 @@ function Nav() {
           </ul>
         </div>
       </nav>
+      </div>
+      
     );
   }
   
   export default Nav;
+
+  // className="navbar-brand wy-logo"
+
+  //className="nav-link nav-link2" href="portfolio"

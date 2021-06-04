@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio"
@@ -12,20 +12,12 @@ function App() {
 
     <Router>
       <div>
-        <Switch>
-          <Route exact path={["/", "/About"]}>
-            <About />
-          </Route>
-          <Route path="/Portfolio">
-            <Portfolio />
-          </Route>
-          <Route path="/Resume">
-            <Resume />
-          </Route>
-          <Route path="/Contact">
-            <Contact />
-          </Route>
-        </Switch>
+          <Route exact path="/" component={About} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/Resume" component={Resume} />
+          <Route exact path="/Contact" component={Contact} />
+        {/* </Switch> */}
       </div>
     </Router>
     
