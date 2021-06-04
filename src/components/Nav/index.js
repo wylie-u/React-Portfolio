@@ -21,13 +21,13 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item active ">
-              <Link to="/portfolio" className={window.location.pathname === "/portfolio"}>Portfolio</Link> 
+            <Link to="/portfolio" className="nav-link nav-link2">Portfolio</Link> 
             </li>
             <li className="nav-item">
               <Link to="/resume" className="nav-link nav-link3">Resume</Link> 
             </li>
             <li className="nav-item">
-              <a className="nav-link nav-link4" href="contact">Contact</a>
+            <Link to="/contact" className="nav-link nav-link4">Contact</Link> 
             </li>
           </ul>
         </div>
