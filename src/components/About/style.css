@@ -16,8 +16,8 @@
 
   .wy-image {
     position: relative;
-    left: 30%;
-    border-radius: 35%;
+    left: 20%;
+    border-radius: 30%;
 }
 
 p {
@@ -27,7 +27,16 @@ p {
 @media screen and (max-width: 900px) and (min-width: 768px) {
   .wy-image {
     position: relative;
-    left: 25%;
+    left: 10%;
+    padding-right: 5px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .wy-image {
+    position: relative;
+    left: 10%;
     padding-right: 5px;
   }
 
