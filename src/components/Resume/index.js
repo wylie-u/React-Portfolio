@@ -3,11 +3,11 @@ import "./style.css";
 
 function Resume() {
   return (
-    <div class="container">
-      <section class="row">
-        <section class="col-sm-12 col-lg-12 resume" id="accordionExample">
-          <article class="resume-content">
-            <h2>Full-Stack Web Developer</h2>
+    <div className="container">
+      <section className="row">
+        <section className="col-sm-12 col-lg-12 resume" id="accordionExample">
+          <article className="resume-content">
+            <h1>Full-Stack Web Developer</h1>
             <p>
               Devoted, energetic and versatile .NET devleoper with 2+ year's
               experience in full-stack web development and .NET Framework.
@@ -21,9 +21,9 @@ function Resume() {
           </article>
         </section>
       </section>
-      <section class="row">
-        <section class="col-sm-12 col-lg-12">
-          <div class="skills__container">
+      <section className="row">
+        <section className="col-sm-12 col-lg-12">
+          <div className="skills__container">
             <h4>Skills</h4>
             <ul class="main__skills">
               <li class="about__skill">.NET Framework</li>

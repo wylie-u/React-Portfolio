@@ -9,8 +9,27 @@
 .about__skill {
 	padding: 8px;
 	font-weight: 600;
+	font-size: 22px;
+}
+
+p {
+	font-size: 20px;
 }
 
 .main-content {
     margin-top: 15%;
 }
+
+
+@media screen and (max-width: 768px) {
+	.main__skills {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.about__skill {
+		font-size: 20px;
+	}
+}
+
