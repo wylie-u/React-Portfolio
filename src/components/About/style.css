@@ -15,24 +15,22 @@
   }
 
   .wy-image {
-    position: relative;
-    left: 17%;
+    width: auto;
     border-radius: 35%;
 }
+
+.headshot-card {
+  align-items: center;
+  margin-top: 10%;
+}
+
 
 p {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px)   {
-  .wy-image {
-    position: relative;
-    left: 5%;
-    top: 10%;
-    width: auto;
-    
-  }
-
+  
   .main-content {
     margin-left: -5px;
   }
@@ -40,23 +38,20 @@ p {
 }
 
 @media screen and (min-width: 992px) {
-  .wy-image {
-    position: relative;
-    left: 15%;
-    padding-right: 5px;
-  }
-
   article {
     margin-top: 5%;
   }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .wy-image {
     
    display: none;
    
+  }
+  card {
+    display: none;
   }
 
   .main-content {
@@ -84,6 +79,7 @@ p {
 
 @media screen and (min-width: 1200px) {
   .wy-image{
-    margin-top: 5%;
+    position: relative;
+    left: 15%;
   }
 }
