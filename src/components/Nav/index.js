@@ -1,50 +1,30 @@
 import React from "react";
 import "./style.css";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
-function Nav() {
+
+function Navigation() {
   return (
-    <div>
-      <nav className="navbar navbar-expand-md nav-item navbar-light wy-nav">
+    <Navbar className="wy-nav" collapseOnSelect expand="lg" variant="light">
+      <Container>
         <Link to="/about" className="navbar-brand wy-logo">
           W
         </Link>
-        <button
-          className="navbar-toggler collapse"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li className="nav-item active ">
-              <Link to="/portfolio" className="nav-link nav-link2">
-                Portfolio
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/resume" className="nav-link nav-link3">
-                Resume
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/contact" className="nav-link nav-link4">
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#resume">Resume</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+          <Nav></Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Nav;
-
-// className="navbar-brand wy-logo"
+export default Navigation;
