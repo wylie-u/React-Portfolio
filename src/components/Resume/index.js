@@ -29,7 +29,7 @@ function Resume() {
               <li class="about__skill">.NET Framework</li>
               <li class="about__skill">C#</li>
               <li class="about__skill">JavaScript</li>
-              <li class="about__skill">REST API's</li>
+              <li class="about__skill">REST API</li>
               <li class="about__skill">React</li>
               <li class="about__skill">Xamarin</li>
               <li class="about__skill">MVC</li>
