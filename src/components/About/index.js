@@ -7,7 +7,10 @@ function AboutMe() {
   return (
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-5">
-        <Card className="headshot-card" style={{ border: "none" }}>
+        <Card
+          className="headshot-card"
+          style={{ border: "none", backgroundColor: "none" }}
+        >
           <img src={headshot} alt="headshot" className="wy-image" />
         </Card>
       </div>
